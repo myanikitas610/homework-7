@@ -25,6 +25,7 @@ class MainController extends Controller
         $homepageData = [
             'title'=> '404 Not Found',
             ];
+            echo $template->render($homepageData);
     }
     
     

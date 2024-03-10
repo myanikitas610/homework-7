@@ -21,7 +21,7 @@ $url = $_SERVER["REQUEST_URI"];
 switch ($url) {
     case '/posts':
         $postController = new PostController();
-        $result = $postController->getPosts(); 
+        $result = $postController->showPosts(); 
         break;
 
     case '/':

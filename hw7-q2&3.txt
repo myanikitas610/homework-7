@@ -1,0 +1,6 @@
+2. Both PHP and Javascript are interpreted programming languages to build websites. They both include variables, conditionals, loops and more. 
+However Php has built in functions while javascript has to access a library. Also classes are required in php and not javascript.
+
+
+3. MVC is a design pattern that seperates an application into three main parts. The first part is model which deals with data such as getting data from a database.
+The next part is the view which generates a user inferface for the user. The last part is the controller which controls what data the model should use and what should output on the view. 
