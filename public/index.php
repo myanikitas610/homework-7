@@ -17,7 +17,7 @@ $url = $_SERVER["REQUEST_URI"];
 //if it is "/posts" return an array of posts via the post controller
 //if it is "/" return the homepage view from the main controller
 //if it is something else return a 404 view from the main controller
-
+echo 'hey';
 switch ($url) {
     case '/posts':
         $postController = new PostController();
@@ -26,7 +26,7 @@ switch ($url) {
 
     case '/':
         $mainController = new MainController();
-        $result = $mainController->index(); 
+        $result = $mainController->homepage(); 
         break;
 
     default:
@@ -35,4 +35,4 @@ switch ($url) {
         break;
 }
 
-echo $result;
+// echo $result;
